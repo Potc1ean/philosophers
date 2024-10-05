@@ -52,7 +52,5 @@ clean:
 
 fclean: clean
 	${RM} ${NAME}
-	make fclean -C libft/
-	make clean -C mlx/
 
 re: fclean all
